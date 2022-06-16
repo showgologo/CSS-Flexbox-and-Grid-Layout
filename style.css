@@ -1,100 +1,91 @@
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
 
-
 *{
-    margin: 0px;
-    padding: 0px;
-    
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /*color: hsla(0, 0%, 100%, 0.75) ;*/
+    line-height: 1.5;
+
 }
 
-
-* > .column_1{
+* > #sedan{
     border-radius: 10px 10px 0px 0px;
 }
 
-
-* > .column_2{
-    border-radius: 0px 0px 0px 0px;
-    
-}
-
-* > .column_3{
+* > #luxury{
     border-radius: 0px 0px 10px 10px;
 }
 
-
-body{
-    background-color: hsl(0, 0%, 95%);
+.container{
+    padding: 70px;
+    background-color:  hsl(0, 0%, 95%);
 }
 
+.colum{
+    padding: 50px 70px 50px 50px;
+}
 
+#sedan{
+    background-color: hsl(31, 77%, 52%);
+
+}
+
+#suv{
+    background-color: hsl(184, 100%, 22%);
+}
+
+#luxury{
+    background-color: hsl(179, 100%, 13%);
+}
 
 h1{
-    padding-top: 30px;
-    padding-bottom: 30px;
-    color: hsl(0, 0%, 95%);
     font-family: 'Big Shoulders Display', cursive;
     font-weight: 700;
+    color: hsla(0, 0%, 100%, 0.75) ;
+    padding-top: 30px;
+    font-size: 43px;
+    text-align: left;
+
 }
 
-p{
-    padding-bottom: 100px;
-    color: hsla(0, 0%, 100%, 0.75);
+h4{
     font-family: 'Lexend Deca', sans-serif;
     font-weight: 400;
-    letter-spacing: 1px;
-    line-height: 25px;
-    font-size: 15px;
-
-}
-
-.column_2 p{
+    color: hsl(0, 0%, 100%, 0.75) ;
+    padding-top: 20px;
     padding-bottom: 100px;
+    text-align: left;
+}
 
-    letter-spacing: 1px;
-    line-height: 25px;
+button{
+    padding: 15px 35px;
+    border-radius: 50px;
+    border-style: none;
+    background-color:hsl(0, 0%, 95%) ;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
     font-size: 15px;
-
-}
-
-
-
-.column_1{
-    background-color: hsl(31, 77%, 52%);
-    padding : 50px
-}
-
-.column_2{
-    background-color:hsl(184, 100%, 22%) ;
-    padding: 49px 50px 50px 50px;
-}
-
-.column_3{
-    background-color: hsl(179, 100%, 13%);
-    padding: 50px;
-}
-
-.button{
-    border-radius: 30px;
-    padding: 15px;
-    width: 60%;
-    font-size: 15px;
-    border: none;
     cursor: pointer;
-    background-color: hsl(0, 0%, 95%);
-    font-family: 'Lexend Deca', sans-serif;
-    font-weight: 400;
+
 
 }
 
-.column_2 button{
-    margin-top: px;
+#sedan button{
+    color: hsl(31, 77%, 52%);
+
 }
 
-.column_2 img{
-    margin-top: 0px;
+#suv button{
+    color: hsl(184, 100%, 22%);
 }
 
+#luxury button{
+    color: hsl(179, 100%, 13%);
+}
+
+
+/*Active Button*/
 #active_1{
     color: hsl(31, 77%, 52%);
     text-decoration: none;
@@ -103,7 +94,6 @@ p{
 #active_2{
    color: hsl(184, 100%, 22%);
    text-decoration: none; 
-   margin-top: 25px;
 }
 
 #active_3{
@@ -131,40 +121,18 @@ p{
     color: white;
 }
 
-/* for Desktop*/
-@media screen and (min-width:1440px) {
-      main{
-		  display: flex;
-		  width: 50%;
-		  justify-content: center;
-		  align-items: center;
-		  height: 100vh;
-		  margin: auto;
-		  border-radius: 50%;
-
+@media (min-width: 1440px) {
+    .container{
+        display: flex;
+        padding: 200px 450px 100px 450px;
         
+    }
+    * > #sedan{
+    border-radius: 10px 0px 0px 10px;
 }
 
-		* > .column_1{
-    		border-radius: 10px 0px 0px 10px;
+    * > #luxury{
+    border-radius: 0px 10px 10px 0px;
 }
-
-		* > .column_3{
-    		border-radius: 0px 10px 10px 0px;
+    
 }
-
-		* > .column_2{
-    		border-radius: 0px 0px 0px 0px;
-    		height:49.2%
-}
-}
-
-@media screen and (max-width:1192px){
-	main{
-		margin: 100px;
-	}
-}
-
-
-
-
