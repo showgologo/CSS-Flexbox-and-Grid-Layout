@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+
+* > .column_1{
+    border-radius: 10px 10px 0px 0px;
+}
+
+
+* > .column_2{
+    border-radius: 0px 0px 0px 0px;
+    
+}
+
+* > .column_3{
+    border-radius: 0px 0px 10px 10px;
+}
+
+
+body{
+    background-color: hsl(0, 0%, 95%);
+}
+
+
+
+h1{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+}
+
+p{
+    padding-bottom: 100px;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 25px;
+    font-size: 15px;
+
+}
+
+.column_2 p{
+    padding-bottom: 100px;
+
+    letter-spacing: 1px;
+    line-height: 25px;
+    font-size: 15px;
+
+}
+
+
+
+.column_1{
+    background-color: hsl(31, 77%, 52%);
+    padding : 50px
+}
+
+.column_2{
+    background-color:hsl(184, 100%, 22%) ;
+    padding: 49px 50px 50px 50px;
+}
+
+.column_3{
+    background-color: hsl(179, 100%, 13%);
+    padding: 50px;
+}
+
+.button{
+    border-radius: 30px;
+    padding: 15px;
+    width: 60%;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    background-color: hsl(0, 0%, 95%);
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+
+}
+
+.column_2 button{
+    margin-top: px;
+}
+
+.column_2 img{
+    margin-top: 0px;
+}
+
+#active_1{
+    color: hsl(31, 77%, 52%);
+    text-decoration: none;
+}
+
+#active_2{
+   color: hsl(184, 100%, 22%);
+   text-decoration: none; 
+   margin-top: 25px;
+}
+
+#active_3{
+    color: hsl(179, 100%, 13%);
+    text-decoration: none;
+}
+
+#active_1:active{
+    border: 2px white solid;
+    background-color: hsl(31, 77%, 52%);
+    color: white;
+
+}
+
+#active_2:active{
+    border: 2px white solid;
+    background-color: hsl(184, 100%, 22%);
+    color: white;
+
+}
+
+#active_3:active{
+    border: 2px white solid;
+    background-color: hsl(179, 100%, 13%);
+    color: white;
+}
+
+/* for Desktop*/
+@media screen and (min-width:1440px) {
+      main{
+		  display: flex;
+		  width: 50%;
+		  justify-content: center;
+		  align-items: center;
+		  height: 100vh;
+		  margin: auto;
+		  border-radius: 50%;
+
+        
+}
+
+		* > .column_1{
+    		border-radius: 10px 0px 0px 10px;
+}
+
+		* > .column_3{
+    		border-radius: 0px 10px 10px 0px;
+}
+
+		* > .column_2{
+    		border-radius: 0px 0px 0px 0px;
+    		height:49.2%
+}
+}
+
+@media screen and (max-width:1192px){
+	main{
+		margin: 100px;
+	}
+}
+
+
+
+
