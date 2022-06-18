@@ -5,6 +5,15 @@
     background-color:rgb(37, 33, 33) ;
 }
 
+a{
+    padding: 10px;
+    background-color: azure;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 30px;
+    color: coral;
+}
+
 .container{
     max-width: 900px;
     margin: 100px auto;

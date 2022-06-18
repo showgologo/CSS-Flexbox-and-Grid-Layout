@@ -9,6 +9,18 @@
 
 }
 
+a{
+    padding: 100px 10px 10px 10px;
+    text-decoration: none;
+    margin-top: 20px;
+    background-color: cadetblue;
+    text-align: center;
+    color: antiquewhite;
+    border-radius: 10px;
+    font-size: 30px;
+
+}
+
 body{
 background-color:  hsl(0, 0%, 95%);
 }
