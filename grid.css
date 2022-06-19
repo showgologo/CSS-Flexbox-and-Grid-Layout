@@ -33,8 +33,8 @@ a{
 
 #orangered{
     background-color: orangered;
-    margin: 10px
-    ;
+    margin: 10px;
+    
 
 }
 
@@ -42,6 +42,7 @@ a{
     background-color: orange;
     margin-right: 10px;
     margin-left: 10px;
+    min-width: 280px;
     
 
 }
@@ -49,6 +50,7 @@ a{
 #green{
     background-color: green;
     margin: 10px;
+    min-width: 380px;
 }
 
 #lightskyblue{
